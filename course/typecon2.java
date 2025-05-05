@@ -4,9 +4,9 @@ class typecon {
 
     public static void main(String args[]){
     // if we assign the value of a=b such that byte b=127; int a=12; then a=b; this is known as implicit type conversion as Java automatically converts smaller types to larger types.
-    /// b=byte(a) this means ke a ke value ko cast karke b me store kar rhe hai this is know as type casting is also known as explicit conversion
+    /// b=(byte)a this means ke a ke value ko cast karke b me store kar rhe hai this is know as type casting is also known as explicit conversion
     byte value=127;
-    int a=value;
+    int a=value; //implicit type
 int find=1290;
     
     System.out.println(a);
